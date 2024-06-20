@@ -6,8 +6,9 @@ import androidx.datastore.preferences.core.edit
 import com.example.shoppingapplication.data.local.ProductPreferencesKey
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
+import javax.inject.Inject
 
-class ProductDataStoreRepositoryImpl(
+class ProductDataStoreRepositoryImpl @Inject constructor(
     private val dataStore: DataStore<Preferences>
 ): ProductDataStoreRepository {
 
