@@ -37,3 +37,6 @@ Implement local caching using DataStore to store and retrieve data locally for o
 
 ### Write Unit Tests
 Use JUnit and Mockito to write unit tests.
+
+![products](images/products.jpeg)
+![details](images/details.jpeg)
